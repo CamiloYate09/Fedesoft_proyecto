@@ -1,0 +1,11 @@
+1- express fedesoft (crea la base del proyecto)
+2- npm install (para instalar todas las dependencias)
+3- (en la carpeta routes)-> eliminar users.js
+4- en la carpeta routes -> vamos a renombrar routes.js por routes.js
+5- crear una carpeta que se llama controllers -> en la principal
+6- eliminar en app.js (var usersRouter = require('./routes/users');) y tambien esta (// app.use('/users', usersRouter);)
+
+
+
+7- Ejecutar el proyecto desde la raiz (set debug=fedesoft:* & npm start)
+8: ejecutar en el navegador localhost:3000
