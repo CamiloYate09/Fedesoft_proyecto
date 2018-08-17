@@ -9,3 +9,5 @@
 
 7- Ejecutar el proyecto desde la raiz (set debug=fedesoft:* & npm start)
 8: ejecutar en el navegador localhost:3000
+9: para subir a heroku se debe enlazar asi (web: node ./bin/www) Procfile
+10: crear un archivo en controllers (index.js)
