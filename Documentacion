@@ -11,3 +11,5 @@
 8: ejecutar en el navegador localhost:3000
 9: para subir a heroku se debe enlazar asi (web: node ./bin/www) Procfile
 10: crear un archivo en controllers (index.js)
+11: Empezar a trabajar con la base de datos(carpeta databse) => config.js
+12:instalar la dependencia de la base de datos (npm install mysql) (npm install pg)
