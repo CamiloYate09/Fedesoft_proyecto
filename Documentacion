@@ -13,3 +13,5 @@
 10: crear un archivo en controllers (index.js)
 11: Empezar a trabajar con la base de datos(carpeta databse) => config.js
 12:instalar la dependencia de la base de datos (npm install mysql) (npm install pg)
+13: (convertir de hmlt o jade) (https://www.browserling.com/tools/jade-to-html)
+14: http://jade-lang.com/
