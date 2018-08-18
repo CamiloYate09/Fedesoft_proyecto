@@ -16,3 +16,19 @@
 13: (convertir de hmlt o jade) (https://www.browserling.com/tools/jade-to-html)
 14: http://jade-lang.com/
 15: Guia de git muy interesante (http://rogerdudler.github.io/git-guide/index.es.html)
+
+16: Tabla en la base de datos
+CREATE TABLE USUARIOS(
+	id_usuario serial,
+	email varchar(50) not null,
+	nombre varchar(50) not null,
+	apellido varchar(50) not null,
+	contraseña varchar(50) not null,
+	cuidad varchar(50) not null,
+	pais varchar(50) not null,
+	intereses varchar(200) not null
+)
+ALTER TABLE USUARIOS  ADD CONSTRAINT PK_USAURIOS_ID PRIMARY KEY (id_usuario);
+
+
+18: encriptar los password en la base de datos con esta libreria(npm install bcryptjs)
